@@ -25,7 +25,7 @@ public class Decryter extends Panel {
 		Panel ptext = new Panel(ltext, text);
 		Panel pcle = new Panel(lcle, cle);
 
-		Button verif = new Button("Crypter", 0);
+		Button verif = new Button("Decrypter", 0);
 
 		final Label res = new Label("");
 
