@@ -46,9 +46,8 @@ public class Vigenere {
 	// sera juste un repetition de la cle normal juska la taille du text
 	public static String getLaLongueCle(String text, String cle) {
 		String longueCle = "";
-
+		
 		for (int i = 0; i < text.length(); i++) {
-			if(!Character.isLetter(text.charAt(i)))
 			longueCle += cle.charAt(i % cle.length());
 		}
 		return longueCle;
