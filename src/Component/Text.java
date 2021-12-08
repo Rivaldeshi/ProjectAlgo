@@ -21,7 +21,7 @@ public class Text extends JTextField {
 
 	public Text(int a, int b) {
 		this();
-		this.setPreferredSize(new Dimension(300, 30));
+		this.setPreferredSize(new Dimension(400, 30));
 	}
 
 }

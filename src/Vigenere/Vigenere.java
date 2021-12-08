@@ -6,12 +6,9 @@ public class Vigenere {
 
 	// fontion de criptage
 	public static String Crypter(String text, String cle) {
-
 		// recupere la cle ayant la meme longuer que le mot
 		cle = getLaLongueCle(text, cle);
-
 		String textCrypter = "";
-
 		// on parcour le mot de on cherche la version cripter de chaque letre
 		// schant que la cle et le text son de meme taille
 		for (int i = 0; i < text.length(); i++) {

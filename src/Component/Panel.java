@@ -22,7 +22,7 @@ public class Panel extends JPanel {
 		this.setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 		this.setAlignmentX(CENTER_ALIGNMENT);
 		this.setBackground(Color.black);
-		this.setPreferredSize(new Dimension(Constans.framewidh,
+		this.setPreferredSize(new Dimension(Constans.framewidh-100,
 				Constans.framehight-300));
 	}
 

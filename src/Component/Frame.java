@@ -3,6 +3,7 @@ package Component;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Dimension;
 
 import javax.swing.BoxLayout;
 import javax.swing.JFrame;
@@ -40,7 +41,7 @@ public class Frame extends JFrame {
 		this.getContentPane().add(container);
 		splitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
 		splitPane.setLeftComponent(panel2);
-		splitPane.setResizeWeight(1);
+		panel2.setPreferredSize(new Dimension(250,Constans.framehight-100));
 		splitPane.setRightComponent(panel1);
 		splitPane.setOneTouchExpandable(true);
 		splitPane.setResizeWeight(Constans.seperationPercentage);
