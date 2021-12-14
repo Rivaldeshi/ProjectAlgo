@@ -18,5 +18,6 @@ public class Main {
 		System.out.println(lc);
 
 		System.out.println(a);
+		System.out.println("kelly has contributed to our projects");
 	}
 }
